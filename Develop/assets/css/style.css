@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0c0029;
+    color: #fff;
+    padding: 20px;
+    height:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header h1 {
+  padding-top: 2px;
+  font-size:50px;
+}
+
+header nav {
+  float:right;
+  padding-top: 30px;
+  margin-right: 20px;
+  font-size:25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header nav ul {
+  list-style-type:none;
+}
+
+header nav ul li {
+  display:inline-block;
+  margin-left:25px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/hero-bg.jpg");
+}
