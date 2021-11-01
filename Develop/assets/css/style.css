@@ -1,3 +1,10 @@
+:root {
+  --color1: #88E0EF;
+  --color2: #161E54;
+  --color3: #FF5151;
+  --color4: #FF9B6A;
+
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,14 +12,15 @@
 }
 
 header {
-    background-color: #0c0029;
-    color: #fff;
-    padding: 20px;
-    height:100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width:100%;
+  background-color: var(--color1);
+  color: #fff;
+  padding: 20px;
+  height:100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header h1 {
@@ -31,15 +39,14 @@ header nav {
 
 header nav ul {
   list-style-type:none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
-
 header nav ul li {
   display:inline-block;
   margin-left:25px;
-}
-a {
-    color: #fff;
-    text-decoration: none;
 }
 .hero {
   height: 300px;
@@ -49,3 +56,4 @@ a {
   background-position: center;
   background-image: url("../images/hero-bg.jpg");
 }
+
