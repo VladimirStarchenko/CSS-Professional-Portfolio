@@ -56,4 +56,27 @@ header nav ul li {
   background-position: center;
   background-image: url("../images/hero-bg.jpg");
 }
+.about-section {
+  font-size:30px;
+  color:var(--color1);
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+.avatar{
+width:30%;
+}
+.avatar img{
+width:100%;
+}
+.content {
+  display:flex;
+  flex-wrap:wrap;
+  margin: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+}
+.content h2 {
+  color: var(--color3);
+}
 
